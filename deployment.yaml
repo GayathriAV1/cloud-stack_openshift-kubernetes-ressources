@@ -16,4 +16,4 @@ spec:
       - name: spring-boot-app1
         image: praravind1801/ingress-backend:v1
         ports:
-        - containerPort: 8080
+        - containerPort: 80
