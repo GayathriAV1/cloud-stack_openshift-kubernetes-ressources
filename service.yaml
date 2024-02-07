@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: spring-boot-app-service1
+  name: spring-boot-app-service2
 spec:
   selector:
-    app: spring-boot-app1
+    app: spring-boot-app2
   ports:
-    - port: 80
-      targetPort: 80
+    - port: 8080
+      targetPort: 8080
