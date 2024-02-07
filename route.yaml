@@ -7,4 +7,4 @@ spec:
     kind: Service
     name: spring-boot-app-service1
   port:
-    targetPort: 8080
+    targetPort: 80
